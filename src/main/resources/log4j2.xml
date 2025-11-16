@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <RollingFile name="RollingFileLogger" fileName="logs/hedgehog-simulation.log"
+                     filePattern="logs/hedgehog-simulation-%d{yyyy-MM-dd_HH-mm-ss}.log">
+            <PatternLayout pattern="[%d{HH:mm:ss}] [%-5level] %c - %msg%n" />
+            <Policies>
+                <OnStartupTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Root level="info" additivity="false">
+            <AppenderRef ref="RollingFileLogger" />
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,24 @@
+# Logs
+logs/
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+
+# Maven build artifacts
+*.class
+*.log
+*.ctxt
+
+# Backup files
+*~
