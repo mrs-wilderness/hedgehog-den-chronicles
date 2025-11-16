@@ -2,7 +2,6 @@ package simulation;
 
 import config.ConfigParameters;
 import manager.DenManager;
-import manager.DenManager_RW;
 import model.threads.*;
 import simulation.tools.ExtinctionMonitor;
 import simulation.tools.LiveStatsDisplay;
